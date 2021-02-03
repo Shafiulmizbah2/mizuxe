@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizuxe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body id="home">
+    
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="/img/mlogo.png" alt="Logo" width="50px" height="50px">
+                <h3 class="d-inline align-middle">Mizuxe</h3>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#authors" class="nav-link">Meet The Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="header" class="py-5">
+        <div class="container text-white py-4">
+            <div class="row">
+                <div class="col-lg-6 text-center"  data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="display-2 mt-5 py-5">
+                        Do What You Dream Up....
+                    </h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, ipsa.</p>
+                    <a href="#" class="btn btn-outline-light btn-lg">
+                        <i class="fa fa-arrow-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="/img/book.png" alt="book image" class="img-fluid d-none d-lg-block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="1000">
+                    <input type="text" class="form-control form-control-lg mb-3" placeholder="Enter Name">
+                </div>
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="1000">
+                    <input type="email" class="form-control form-control-lg mb-3" placeholder="Enter Email">
+                </div>
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="1000">
+                    <button class="btn btn-primary btn-lg btn-block">
+                        <i class="fa fa-bell mr-2"></i> Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card border-primary bg-light text-primary text-center mb-3">
+                        <div class="card-body">
+                            <h3>Be Better</h3>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quibusdam ea doloribus libero similique quisquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card bg-primary text-light text-center mb-3">
+                        <div class="card-body">
+                            <h3>Be Smarter</h3>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quibusdam ea doloribus libero similique quisquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card border-primary bg-light text-primary text-center mb-3">
+                        <div class="card-body">
+                            <h3>Be Faster</h3>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quibusdam ea doloribus libero similique quisquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card bg-primary text-light text-center mb-3">
+                        <div class="card-body">
+                            <h3>Be Stronger</h3>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quibusdam ea doloribus libero similique quisquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 text-center">
+        <div class="container" data-aos="fade-in" data-aos-duration="1000">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary mb-3">Why This Book ?</h1>
+                        <p class="lead mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia praesentium libero laborum, ad temporibus iusto maxime deleniti similique obcaecati quo.</p>
+                    </div>
+
+                    <div id="accordian">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse1" data-toggle="collapse">
+                                       <i class="fa fa-arrow-down"></i> Get inspired
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse1" class="collapse show">
+                                <div class="card-body lead">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur recusandae ullam repellat, eveniet repellendus consectetur vel eos possimus aperiam incidunt quisquam nesciunt, quod, architecto dolores alias ex modi soluta doloremque beatae quia mollitia obcaecati officia ab magni. Dignissimos facere quae praesentium totam eius, nemo consequatur deserunt ad ratione cumque numquam.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse2" data-toggle="collapse" >
+                                       <i class="fa fa-arrow-down"></i> Gain the Knowledge
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body lead">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur recusandae ullam repellat, eveniet repellendus consectetur vel eos possimus aperiam incidunt quisquam nesciunt, quod, architecto dolores alias ex modi soluta doloremque beatae quia mollitia obcaecati officia ab magni. Dignissimos facere quae praesentium totam eius, nemo consequatur deserunt ad ratione cumque numquam.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse3" data-toggle="collapse" >
+                                       <i class="fa fa-arrow-down"></i> Open your mind
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body lead">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur recusandae ullam repellat, eveniet repellendus consectetur vel eos possimus aperiam incidunt quisquam nesciunt, quod, architecto dolores alias ex modi soluta doloremque beatae quia mollitia obcaecati officia ab magni. Dignissimos facere quae praesentium totam eius, nemo consequatur deserunt ad ratione cumque numquam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="authors" class="py-5">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row text-center">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary mb-3">Meet The Authors</h1>
+                        <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, laboriosam.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="/img/person1.jpg" alt="Authors" class="img-fluid rounded-circle mb-3" style='width:100px'>
+                            <h3>Susan Williams</h3>
+                            <h5 class="text-muted">Lead Writter</h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus delectus aut hic beatae quisquam quibusdam.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-3">
+                                    <a href="http://facebook.com">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://twitter.com">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://instagram.com">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="/img/person2.jpg" alt="Authors" class="img-fluid rounded-circle mb-3" style='width:100px'>
+                            <h3>Grace Smith</h3>
+                            <h5 class="text-muted">Co-Writter</h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus delectus aut hic beatae quisquam quibusdam.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-3">
+                                    <a href="http://facebook.com">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://twitter.com">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://instagram.com">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="/img/person3.jpg" alt="Authors" class="img-fluid rounded-circle mb-3" style='width:100px'>
+                            <h3>Jhon Duo</h3>
+                            <h5 class="text-muted">Editor</h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus delectus aut hic beatae quisquam quibusdam.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-3">
+                                    <a href="http://facebook.com">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://twitter.com">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://instagram.com">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="/img/person4.jpg" alt="Authors" class="img-fluid rounded-circle mb-3" style='width:100px'>
+                            <h3>Kebin Swanson</h3>
+                            <h5 class="text-muted">Designer</h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus delectus aut hic beatae quisquam quibusdam.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-3">
+                                    <a href="http://facebook.com">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://twitter.com">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="http://instagram.com">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9" data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="text-primary">Get In Touch</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et.</p>
+
+                    <form action="#">
+                        <div class="input-group input-group-lg mb-3">
+                           <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <span class="text-primary"><i class="fa fa-user"></i></span>
+                            </span>
+                           </div>
+                           <input type="text" placeholder="Name" class="form-control">
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                             <span class="input-group-text">
+                                <span class="text-primary"><i class="fa fa-envelope-open"></i></span>
+                             </span>
+                            </div>
+                            <input type="email" placeholder="email" class="form-control">
+                         </div>
+
+                         <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                             <span class="input-group-text">
+                                <span class="text-primary"><i class="fa fa-pencil"></i></i></span>
+                             </span>
+                            </div>
+                            <textarea placeholder="Leave us a comment" class="form-control" rows=5></textarea>
+                         </div>
+                         <input type="subbit" class="btn btn-primary btn-block" value="Submit" >
+                    </form>
+                </div>
+
+                <div class="col-lg-3 align-self-center" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="/img/mlogo.png" alt="Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="py-5 bg-primary text-white" data-aos="fade-in" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto">
+                    <p class="lead text-center">
+                        Copyright &copy; 2020;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

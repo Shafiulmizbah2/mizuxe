@@ -1,0 +1,57 @@
+$primary : #3292a6;
+$primary-overlay: rgba(50, 147, 166, 0.8);
+
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: .9;
+    background-color: #fff;
+
+    .nav-item{
+        font-size: 1.2rem;
+        padding-right: 1rem;
+    }
+    
+    &-toggler:focus{
+        outline: none;
+    }
+
+}
+
+//Header section
+
+#header{
+    height: 90vh;
+    width: 100%;
+    background-image:linear-gradient($primary-overlay,$primary-overlay), url(/img/mountains.jpg);
+}
+
+
+//About section
+
+.info-header{
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 5px soid #555;
+}
+
+//Authors Section
+
+#authors{
+    img{ margin-top: -50px;}
+
+    .card:hover{
+        background-color: $primary;
+        color: rgb(226, 222, 222);
+
+        .fa{
+            color: rgb(226, 222, 222);
+        }        
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+    .display-2{
+        font-size: 4rem;
+    }
+}
